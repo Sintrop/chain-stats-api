@@ -20,5 +20,27 @@
       "WS_SECRET"       : "teste",
       "VERBOSITY"       : 2
     }
+  },
+  {
+    "name"              : "afiliart",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "production",
+      "RPC_HOST"        : "189.5.4.127",
+      "RPC_PORT"        : "8545",
+      "LISTENING_PORT"  : "30303",
+      "INSTANCE_NAME"   : "afiliart",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "http://localhost:3000",
+      "WS_SECRET"       : "teste",
+      "VERBOSITY"       : 2
+    }
   }
 ]
