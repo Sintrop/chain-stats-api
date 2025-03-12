@@ -55,7 +55,7 @@
     "env":
     {
       "NODE_ENV"        : "production",
-      "RPC_HOST"        : "209.38.60.234",
+      "RPC_HOST"        : "209.38.96.144",
       "RPC_PORT"        : "8545",
       "LISTENING_PORT"  : "30303",
       "INSTANCE_NAME"   : "sintrop",
